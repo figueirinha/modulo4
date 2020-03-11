@@ -49,9 +49,11 @@ namespace Consola
             //Ficha7Solucao.Exercicio32();
 
             //Ficha9Solucao.Exercicio1();
-
-
-
+            //Ficha9Solucao.Exercicio2();
+            //Ficha9Solucao.Exercicio3();
+            //Ficha9Solucao.Exercicio4();
+            //Ficha9Solucao.Exercicio5();
+            Ficha9Solucao.Exercicio6();
 
 
             /*
