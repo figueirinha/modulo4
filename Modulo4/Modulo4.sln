@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consola", "Consola\Consola.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha6", "Ficha6\Ficha6.csproj", "{3EA5BF5B-9B34-4E58-B09C-2E339C925AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ficha7", "Ficha7\Ficha7.csproj", "{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ficha7", "Ficha7\Ficha7.csproj", "{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ficha9", "Ficha9\Ficha9.csproj", "{19108C35-191B-4864-8966-EEAD014D3569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19108C35-191B-4864-8966-EEAD014D3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19108C35-191B-4864-8966-EEAD014D3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19108C35-191B-4864-8966-EEAD014D3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19108C35-191B-4864-8966-EEAD014D3569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3EA5BF5B-9B34-4E58-B09C-2E339C925AA2} = {AF41F199-7301-4026-8F6C-5DA9A73FCD15}
 		{1D16CF13-F5FD-4DB3-A3A3-DF2455567FE6} = {AF41F199-7301-4026-8F6C-5DA9A73FCD15}
+		{19108C35-191B-4864-8966-EEAD014D3569} = {AF41F199-7301-4026-8F6C-5DA9A73FCD15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1BB5BC3-6896-4699-B4CA-A40F73B9DB3F}

@@ -384,7 +384,7 @@ namespace Ficha7
         }
         #endregion
 
-        #region Exercicio 32
+        #region Exercicio32
         public static void Exercicio32()
         {
             Console.WriteLine("Qual é a dimensão do triangulo?");

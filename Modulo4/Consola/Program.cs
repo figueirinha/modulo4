@@ -1,5 +1,6 @@
 ﻿using Ficha6;
 using Ficha7;
+using Ficha9;
 using System;
 
 namespace Consola
@@ -46,6 +47,8 @@ namespace Consola
             //Ficha7Solucao.Exercicio23();
             //Ficha7Solucao.Exercicio31();
             //Ficha7Solucao.Exercicio32();
+
+            //Ficha9Solucao.Exercicio1();
 
 
 
