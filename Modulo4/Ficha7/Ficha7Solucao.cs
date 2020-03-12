@@ -151,21 +151,28 @@ namespace Ficha7
         {
             double total = 0;
             string lista = "";
+            int i = 1;
 
-            for(int i = 0; i < 5; i++)
+            while (i != 0)
             {
-                Console.WriteLine("Nome do produto?");
-                var nome = Console.ReadLine();
-                Console.WriteLine("Preço do produto?");
+                Console.WriteLine("Nome do produto? enter para terminar");
+                string nome = Console.ReadLine();
+                Console.WriteLine("Preço do produto? zero para terminar");
                 double preco = double.Parse(Console.ReadLine());
-                Console.WriteLine("Quantidade desse produto?");
+                Console.WriteLine("Quantidade desse produto? zero para terminar");
                 double quantidade = double.Parse(Console.ReadLine());
 
                 lista += "O produto " + nome + " teve um custo de " + (preco * quantidade) + "\n";
                 total += preco * quantidade;
 
-            }
+                Console.WriteLine("Deseja terminar? S ou N");
+                string resposta = Console.ReadLine();
+                if (resposta == "S")
+                {
+                    i = 0;
+                }
 
+            } 
             Console.WriteLine(lista);
             Console.WriteLine("O custo total da compra foi " + total);
         }
