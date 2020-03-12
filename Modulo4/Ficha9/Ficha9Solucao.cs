@@ -103,7 +103,48 @@ namespace Ficha9
         #region Exercicio6
         public static void Exercicio6()
         {
+            Console.WriteLine("Pense num número entre 1 e 100");
+        
+            bool encontrado = false;
+            int low = 1;
+            int high = 100;
 
+            while (!encontrado)
+            {
+                
+                int guess = (low + high) / 2;
+                Console.WriteLine("É menor que " + guess + "? S ou N");
+                string resposta = Console.ReadLine();
+
+                if (resposta == "S")
+                {
+                    high = guess - 1;
+                }
+                if (resposta == "N")
+                {
+                    low = guess;
+                }
+                if ((high - low) <= 2)
+                {
+                    Console.WriteLine("É " + (guess - 1));
+                    string respostaFinal = Console.ReadLine();
+                    
+                    if (respostaFinal == "N")
+                    {
+                        Console.WriteLine("É " + guess);
+                        respostaFinal = Console.ReadLine();
+                        
+                    }
+                    else
+                    {
+                        Console.WriteLine("É " + (guess + 1));
+                        respostaFinal = Console.ReadLine();
+                        
+                    }
+
+                    encontrado = true;
+                }
+            }
         }
         #endregion 
 
