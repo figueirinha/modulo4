@@ -36,7 +36,7 @@ namespace Consola
             //Ficha7Solucao.Exercicio5();
             //Ficha7Solucao.Exercicio6();
             //Ficha7Solucao.Exercicio7();
-            Ficha7Solucao.Exercicio8();
+            //Ficha7Solucao.Exercicio8();
             //Ficha7Solucao.Exercicio9();
             //Ficha7Solucao.Exercicio10();
             //Ficha7Solucao.Exercicio11();
@@ -54,6 +54,15 @@ namespace Consola
             //Ficha9Solucao.Exercicio4();
             //Ficha9Solucao.Exercicio5();
             //Ficha9Solucao.Exercicio6();
+            //Ficha9Solucao.Exercicio7();
+            //Ficha9Solucao.Exercicio8();
+            //Ficha9Solucao.Exercicio9();
+            //Ficha9Solucao.Exercicio10();
+            //Ficha9Solucao.Exercicio6New();
+            Ficha9Solucao.Exercicio11();
+
+
+
 
 
             /*
