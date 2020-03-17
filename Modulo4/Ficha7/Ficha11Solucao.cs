@@ -2,7 +2,7 @@
 
 namespace Ficha7
 {
-    public class Ficha7Solucao
+    public class Ficha11Solucao
     {
         #region Exercicio1
         public static void Exercicio1()

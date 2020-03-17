@@ -2,7 +2,7 @@
 
 namespace Ficha9
 {
-    public class Ficha9Solucao
+    public class Ficha12Solucao
     {
         #region Exercicio1
         public static void Exercicio1()
@@ -104,52 +104,23 @@ namespace Ficha9
         #region Exercicio6
         public static void Exercicio6()
         {
-            Console.WriteLine("Pense num número entre 1 e 100");
-        
-            bool encontrado = false;
-            int low = 0;
-            int high = 100;
+            Console.WriteLine("Quantos items?");
+            int contagem = int.Parse(Console.ReadLine());
 
-            while (!encontrado)
+            while(contagem > 0)
             {
-                
-                int guess = (low + high) / 2;
-                Console.WriteLine("É menor que " + guess + "? S ou N");
-                string resposta = Console.ReadLine();
-
-                if ((resposta == "S") || (resposta == "s"))
+                if (contagem % 2 == 0)
                 {
-                    high = guess - 1;
+                    Console.WriteLine("um pra ti");
                 }
-                if ((resposta == "N") || (resposta == "n"))
+                else
                 {
-                    low = guess;
+                    Console.WriteLine("Um para mim");
                 }
-                if ((high - low) <= 1)
-                {
-                    Console.WriteLine("É " + (guess - 1));
-                    string respostaFinal = Console.ReadLine();
-                    
-                    if ((respostaFinal == "S") || (respostaFinal == "s")) 
-                    {
-                        Console.WriteLine("É " + guess);
-                        respostaFinal = Console.ReadLine();
-                        encontrado = true;
-
-                    }
-                    else if ((respostaFinal == "N") || (respostaFinal == "n"))
-                    {
-                        Console.WriteLine("É " + (guess + 1));
-                        respostaFinal = Console.ReadLine();
-                        encontrado = true;
-
-                    }
-
-                    
-                }
+                contagem--;
             }
         }
-        #endregion
+        #endregion#region Exercicio16
 
         #region Exercicio7
         public static void Exercicio7()
@@ -233,27 +204,6 @@ namespace Ficha9
         }
         #endregion
 
-        #region Exercicio6New
-        public static void Exercicio6New()
-        {
-            Console.WriteLine("Quantos items?");
-            int contagem = int.Parse(Console.ReadLine());
-
-            while(contagem > 0)
-            {
-                if (contagem % 2 == 0)
-                {
-                    Console.WriteLine("um pra ti");
-                }
-                else
-                {
-                    Console.WriteLine("Um para mim");
-                }
-                contagem--;
-            }
-        }
-        #endregion
-
         #region Exercicio11
         public static void Exercicio11()
         {
@@ -309,6 +259,94 @@ namespace Ficha9
                 Console.WriteLine("Dez, 31");
             }
         }
+        #endregion
+
+        #region Exercicio12
+        public static void Exercicio12()
+        {
+            Console.WriteLine("Qual é a dimensão do triangulo?");
+            int n = int.Parse(Console.ReadLine());
+            int nFixo = n;
+            int i = (n - 1) + n;
+
+            while (n > 0)
+            {
+                n--;
+                int a = 0;
+
+                while (a != (nFixo - n)) 
+                {
+                    Console.Write(" ");
+                    a++;
+                }
+
+                int b = 0;
+
+                while (b != i)
+                {
+                    Console.Write("*");
+                    b++;
+                }
+
+                i -= 2;
+                Console.Write("\n");
+            }
+
+
+        }
         #endregion 
+
+
+
+        #region Exercicio16
+        public static void Exercicio16()
+        {
+            Console.WriteLine("Pense num número entre 1 e 100");
+        
+            bool encontrado = false;
+            int low = 0;
+            int high = 100;
+
+            while (!encontrado)
+            {
+                
+                int guess = (low + high) / 2;
+                Console.WriteLine("É menor que " + guess + "? S ou N");
+                string resposta = Console.ReadLine();
+
+                if ((resposta == "S") || (resposta == "s"))
+                {
+                    high = guess - 1;
+                }
+                if ((resposta == "N") || (resposta == "n"))
+                {
+                    low = guess;
+                }
+                if ((high - low) <= 1)
+                {
+                    Console.WriteLine("É " + (guess - 1));
+                    string respostaFinal = Console.ReadLine();
+                    
+                    if ((respostaFinal == "S") || (respostaFinal == "s")) 
+                    {
+                        Console.WriteLine("É " + guess);
+                        respostaFinal = Console.ReadLine();
+                        encontrado = true;
+
+                    }
+                    else if ((respostaFinal == "N") || (respostaFinal == "n"))
+                    {
+                        Console.WriteLine("É " + (guess + 1));
+                        respostaFinal = Console.ReadLine();
+                        encontrado = true;
+
+                    }
+
+                    
+                }
+            }
+        }
+        #endregion
+
     }
 }
