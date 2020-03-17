@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ficha9
+namespace Ficha12
 {
     public class Ficha12Solucao
     {

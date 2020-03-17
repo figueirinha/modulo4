@@ -2,8 +2,11 @@
 
 namespace Ficha13
 {
-    public class Ficha13Resolucao
+    public class Ficha13Solucao
     {
+        public static void Exercicio1()
+        {
 
+        }
     }
 }
