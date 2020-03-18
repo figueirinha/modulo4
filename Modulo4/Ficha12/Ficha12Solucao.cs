@@ -294,9 +294,90 @@ namespace Ficha12
 
 
         }
+        #endregion
+
+        #region Exercicio13
+        public static void Exercicio13()
+        {
+            Console.WriteLine("Quantidade de unidades de água consumidas?");
+            double quantidade = double.Parse(Console.ReadLine());
+            Console.WriteLine("Em que região se encontra? A, B C ou D?");
+            string regiao = Console.ReadLine();
+            double fatura = 1;
+
+            if (regiao == "A" || regiao == "a")
+            {
+                fatura = quantidade * 2;
+            }
+            else if (regiao == "B" || regiao == "b")
+            {
+                fatura = quantidade * 1.20;
+            }
+            else if (regiao == "C" || regiao == "c")
+            {
+                fatura = quantidade * 1;
+            }
+            else if (regiao == "D" || regiao == "d")
+            {
+                fatura = quantidade * 0.75;
+            }
+            else
+            {
+                Console.WriteLine("Região inexistente");
+            }
+
+            Console.WriteLine("A sua fatura da água para o presente mês é " + fatura + " euros");
+
+        }
+        #endregion
+
+        #region Exercicio14
+        public static void Exercicio14()
+        {
+            Console.WriteLine("n números de Fibonacci (> 1)");
+            int n = int.Parse(Console.ReadLine());
+            int nMenosUm = 1;
+            int nMenosDois = 0;
+            int f;
+            int counter = 2;
+
+            Console.WriteLine(nMenosDois);
+            Console.WriteLine(nMenosUm);
+
+            while (counter < n)
+            {
+                f = nMenosUm + nMenosDois;
+                Console.WriteLine(f);
+                nMenosDois = nMenosUm;
+                nMenosUm = f;
+                counter++;
+            }
+           
+        }
+        #endregion
+
+        #region Exercicio15
+        public static void Exercicio15()
+        {
+            Console.WriteLine("Qual o número");
+            int n = int.Parse(Console.ReadLine());
+
+            int op1 = 5 * n * n + 4;
+            int test1 = (int)Math.Sqrt(op1);
+            int op2 = 5 * n * n - 4;
+            int test2 = (int)Math.Sqrt(op2);
+
+
+            if (((test1 * test1) == op1) || ((test2 * test2) == op2)) 
+            {
+                Console.WriteLine("Não é Fibonice!");
+            }
+            else
+            {
+                Console.WriteLine("É Fibonice!");
+            }
+        }
         #endregion 
-
-
 
         #region Exercicio16
         public static void Exercicio16()
