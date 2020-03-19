@@ -66,7 +66,7 @@ namespace Consola
             //Ficha12Solucao.Exercicio15();
             //Ficha12Solucao.Exercicio16();
 
-            //Ficha13Solucao.Exercicio1();
+            Ficha13Solucao.Exercicio1();
 
 
 
