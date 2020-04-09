@@ -2,6 +2,7 @@
 using Ficha11;
 using Ficha12;
 using Ficha13;
+using Ficha14;
 using System;
 
 namespace Consola
@@ -66,9 +67,18 @@ namespace Consola
             //Ficha12Solucao.Exercicio15();
             //Ficha12Solucao.Exercicio16();
 
-            Ficha13Solucao.Exercicio1();
+            //Ficha13Solucao.Exercicio1();
+            //Ficha13Solucao.Exercicio2();
+            //Ficha13Solucao.Exercicio3();
 
-
+            //Ficha14Solucao.ShowFirstNNaturals(20);
+            //Ficha14Solucao.ShowNaturalsDown(10);
+            //Ficha14Solucao.SumNFirstNaturals(10);
+            //Ficha14Solucao.EvenNums(1, 10);
+            //Ficha14 Ex5
+            //string list = "";
+            //Console.WriteLine(Ficha14Solucao.Fibonacci(5, ref list));
+            //Console.WriteLine(Ficha14Solucao.Factorial(3));
 
 
 

@@ -160,7 +160,7 @@ namespace Ficha13
             Console.BackgroundColor = ConsoleColor.Gray;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("------------------------------");
-            Console.Write("           O RESULTADO É ");
+            Console.Write("                O RESULTADO É ");
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.Write(" " + resultadoFinal + " ");
@@ -169,11 +169,18 @@ namespace Ficha13
         }
         #endregion
 
-        #region Exercicio2
+        #region Exercicio2 não resolvido
         public static void Exercicio2()
         {
 
         }
-        #endregion 
+        #endregion
+
+        #region Exercicio3 não resolvido
+        public static void Exercicio3()
+        {
+
+        }
+        #endregion
     }
 }
