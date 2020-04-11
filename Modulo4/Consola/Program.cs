@@ -69,7 +69,8 @@ namespace Consola
 
             //Ficha13Solucao.Exercicio1();
             //Ficha13Solucao.Exercicio2();
-            //Ficha13Solucao.Exercicio3();
+            Ficha13Solucao.Exercicio3();
+           
 
             //Ficha14Solucao.ShowFirstNNaturals(20);
             //Ficha14Solucao.ShowNaturalsDown(10);
