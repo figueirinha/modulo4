@@ -3,7 +3,11 @@ using Ficha11;
 using Ficha12;
 using Ficha13;
 using Ficha14;
+using Ficha15;
+using Ficha16;
+using Ficha17;
 using System;
+using System.Collections.Generic;
 
 namespace Consola
 {
@@ -69,21 +73,58 @@ namespace Consola
 
             //Ficha13Solucao.Exercicio1();
             //Ficha13Solucao.Exercicio2();
-            Ficha13Solucao.Exercicio3();
-           
-
+            //Ficha13Solucao.Exercicio3();
+            
             //Ficha14Solucao.ShowFirstNNaturals(20);
             //Ficha14Solucao.ShowNaturalsDown(10);
             //Ficha14Solucao.SumNFirstNaturals(10);
             //Ficha14Solucao.EvenNums(1, 10);
             //Ficha14 Ex5
-            //string list = "";
+            string list = "";
             //Console.WriteLine(Ficha14Solucao.Fibonacci(5, ref list));
             //Console.WriteLine(Ficha14Solucao.Factorial(3));
 
+            //Ficha15Solucao.Exercicio1();
+            //Ficha15Solucao.Exercicio2();
+            //Ficha15Solucao.Exercicio3();
+            int[] array = new int[5] { 1, 2, 3, 2, 2};
+            //Ficha15Solucao.Exercicio4(array);
+            //Ficha15Solucao.Exercicio5(array);
+            //Ficha15Solucao.Exercicio6(array);
+            //Ficha15Solucao.Exercicio7(array);
+            //Ficha15Solucao.Exercicio8(array);
+            //Ficha15Solucao.Exercicio9(array, 6);
+
+            //Ficha16Solucao.Exercicio1();
+            //Ficha16Solucao.Exercicio2();
+            //Ficha16Solucao.Exercicio3();
+            List<int> inputList = new List<int>() { 1, 2, 3, 2, 2};
+            //Ficha16Solucao.Exercicio4(inputList);
+            //Ficha16Solucao.Exercicio5(inputList);
+            //Ficha16Solucao.Exercicio6(inputList);
+            //Ficha16Solucao.Exercicio7(inputList);
+            //Ficha16Solucao.Exercicio8(inputList, 3);
+
+            //Ficha17Solucao.Exercicio1();
+            //Ficha17Solucao.Exercicio2();
+            //Ficha17Solucao.Exercicio3();
+            //Ficha17Solucao.Exercicio4();
+            //Ficha17Solucao.Exercicio5();
+            //Ficha17Solucao.Exercicio6();
+            //Ficha17Solucao.Exercicio7();
+            //Ficha17Solucao.Exercicio8();
+            //Ficha17Solucao.Exercicio9();
+            //Ficha17Solucao.Exercicio10();
+            //Ficha17Solucao.Exercicio11();
+            //Ficha17Solucao.Exercicio12();
+            //Ficha17Solucao.Exercicio13();
 
 
-            /*
+
+
+           
+
+            /* Formas de escrever strings com variáveis
             Console.WriteLine("valor");
             var val = Console.ReadLine();
             Console.WriteLine("caracter");

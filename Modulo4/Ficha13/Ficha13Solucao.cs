@@ -324,7 +324,7 @@ namespace Ficha13
         }
         #endregion
 
-        #region Exercicio3 não resolvido
+        #region Exercicio3 
         public static void Exercicio3()
         {
             string errado1 = "   o   \n \n";
