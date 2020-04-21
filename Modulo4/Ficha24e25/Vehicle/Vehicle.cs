@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Ficha24e25.EnumGears;
 
-namespace Ficha24
+namespace Ficha24e25.Vehicle
 {
     /// <summary>
     /// Class vehicle for the brand, model, registration year and the gears options.
     /// </summary>
-    class vehicle
+    class Vehicle
     {
         // properties
         private string brand;
@@ -16,7 +17,7 @@ namespace Ficha24
         private bool isTurnedOn;
         private bool isSpeeding;
         private Gears gear;
-        
+
         // methods
         public void SetBrand(string brand)
         {
@@ -68,5 +69,4 @@ namespace Ficha24
             return gear;
         }
     }
-    
 }

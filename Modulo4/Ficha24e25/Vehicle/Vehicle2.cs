@@ -1,24 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Ficha24e25.EnumGears;
 
-namespace Ficha24
+namespace Ficha24e25.Vehicle
 {
     /// <summary>
     /// Class vehicle with properties get set and a constructor example for the brand, model, registration year and the gears options.
     /// </summary>
-    class vehicle2
+    public class vehicle2
     {
-        // cosntrutor example (1st empty)
-        public vehicle2()
-        {
-
-        }
+        // cosntrutor example 
         public vehicle2(string brand, string model, int registrationYear)
         {
-            Brand = brand;
-            Model = model;
-            RegistrationYear = registrationYear;
+            this.brand = brand;
+            this.model = model;
+            this.registrationYear = registrationYear;
             Gear = Gears.reverse; // we going back
         }
 
@@ -65,9 +62,9 @@ namespace Ficha24
             }
         }
         public bool IsTurnedOn { get; set; }
-        
+
         public bool IsSpeeding { get; set; }
-        
+
         public Gears Gear { get; set; }
     }
 }

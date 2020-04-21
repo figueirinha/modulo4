@@ -1,11 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Ficha24
+namespace Ficha24e25.EnumGears
 {
-    public class Class1
-    {
-
-    }
     /// <summary>
     /// enum for all the options of gears in a vehicle.
     /// </summary>

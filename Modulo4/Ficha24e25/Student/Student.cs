@@ -2,25 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24
+namespace Ficha24e25.Student
 {
     /// <summary>
     /// Class student with properties get set and construtor example for a student with name, age, best grade, hours of sleep and amount of coffee
     /// </summary>
-    class student
+    public class Student
     {
-        // construtor example (1st empty)
-        public student()
+        // construtor example        
+        public Student(string name, int age, double bestGrade, int hoursOfSleep, int amountOfCoffee)
         {
-
-        }
-        public student(string name, int age, double bestGrade, int hoursOfSleep, int amountOfCoffee)
-        {
-            Name = name;
-            Age = age;
-            BestGrade = bestGrade;
-            HoursOfSleep = hoursOfSleep;
-            AmountOfCoffee = amountOfCoffee;
+            this.name = name;
+            this.age = age;
+            this.bestGrade = bestGrade;
+            this.hoursOfSleep = hoursOfSleep;
+            this.amountOfCoffee = amountOfCoffee;
         }
 
         // properties
@@ -50,7 +46,7 @@ namespace Ficha24
             }
             set
             {
-                if (value > 0) age = value;  
+                if (value > 0) age = value;
             }
         }
         public double BestGrade

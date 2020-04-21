@@ -2,24 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24
+namespace Ficha24e25.Catalog
 {
     /// <summary>
     /// Class catalog with properties get set and constructor example for a product with name price and its type.
     /// </summary>
-    class catalog2
+    public class Catalog2
     {
-        
-        // constructor example (1st one empty)      
-        public catalog2()
-        {
 
-        }
-        public catalog2(string name, double price, string typeOf)
+        // constructor example 
+        public Catalog2(string name, double price, string typeOf)
         {
-            Name = name;
-            Price = price;
-            TypeOf = typeOf;
+            this.name = name;
+            this.price = price;
+            this.typeOf = typeOf;
         }
 
         // properties
