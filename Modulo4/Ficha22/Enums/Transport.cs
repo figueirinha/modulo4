@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha22.Enums
+namespace Recodme.Formacao.Exercicios.Ficha22.Enums
 {
     public enum Transport
     {

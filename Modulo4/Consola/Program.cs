@@ -1,22 +1,29 @@
-﻿using Ficha10;
-using Ficha11;
-using Ficha12;
-using Ficha13;
-using Ficha14;
-using Ficha15;
-using Ficha16;
-using Ficha17;
-using Ficha18;
-using Ficha19;
-using Ficha21;
-using Ficha22;
-using Ficha22.Enums;
-using Ficha24e25.Catalog;
-using Ficha24e25.Student;
-using Ficha24e25.Vehicle;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using static System.Console;
+using Recodme.Formacao.Exercicios.Ficha10;
+using Recodme.Formacao.Exercicios.Ficha11;
+using Recodme.Formacao.Exercicios.Ficha12;
+using Recodme.Formacao.Exercicios.Ficha13;
+using Recodme.Formacao.Exercicios.Ficha14;
+using Recodme.Formacao.Exercicios.Ficha15;
+using Recodme.Formacao.Exercicios.Ficha16;
+using Recodme.Formacao.Exercicios.Ficha17;
+using Recodme.Formacao.Exercicios.Ficha18;
+using Recodme.Formacao.Exercicios.Ficha19;
+using Recodme.Formacao.Exercicios.Ficha21;
+using Recodme.Formacao.Exercicios.Ficha22;
+using Recodme.Formacao.Exercicios.Ficha22.Enums;
+using Recodme.Formacao.Exercicios.Ficha24e25.Vehicle;
+using Recodme.Formacao.Exercicios.Ficha24e25.Catalog;
+using Recodme.Formacao.Exercicios.Ficha24e25.Student;
+using Recodme.Formacao.Exercicios.Ficha24e25.CoordXY;
+using Recodme.Formacao.Exercicios.Ficha24e25.TPCard;
+using Recodme.Formacao.Exercicios.Ficha24e25.EnumColors;
+using Recodme.Formacao.Exercicios.Ficha24e25.Piano;
+using Recodme.Formacao.Exercicios.Ficha24e25.EnumsKeyColor;
+using Recodme.Formacao.Exercicios.Ficha24e25.ProductDelivery;
 
 namespace Consola
 {
@@ -95,8 +102,8 @@ namespace Consola
             //Ficha14Solucao.EvenNums(1, 10);
             //Ficha14 Ex5
             //string list = "";
-            //Console.WriteLine(Ficha14Solucao.Fibonacci(5, ref list));
-            //Console.WriteLine(Ficha14Solucao.Factorial(3));
+            //WriteLine(Ficha14Solucao.Fibonacci(5, ref list));
+            //WriteLine(Ficha14Solucao.Factorial(3));
 
             // S O L U C A O    F I C H A    1 5
             //Ficha15Solucao.Exercicio1();
@@ -153,16 +160,16 @@ namespace Consola
             //double num = 1.5;
             //double degree = 90;
             //double numTwo = -2.5;
-            //Console.WriteLine(Ficha19Solucao.Exercicio1(raio));
-            //Console.WriteLine(Ficha19Solucao.Exercicio2(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio3(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio4(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio5(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio6(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio7(num));
-            //Console.WriteLine(Ficha19Solucao.Exercicio8(degree));
-            //Console.WriteLine(Ficha19Solucao.Exercicio9(numTwo));
-            //Console.WriteLine(Ficha19Solucao.Exercicio10(numTwo));
+            //WriteLine(Ficha19Solucao.Exercicio1(raio));
+            //WriteLine(Ficha19Solucao.Exercicio2(num));
+            //WriteLine(Ficha19Solucao.Exercicio3(num));
+            //WriteLine(Ficha19Solucao.Exercicio4(num));
+            //WriteLine(Ficha19Solucao.Exercicio5(num));
+            //WriteLine(Ficha19Solucao.Exercicio6(num));
+            //WriteLine(Ficha19Solucao.Exercicio7(num));
+            //WriteLine(Ficha19Solucao.Exercicio8(degree));
+            //WriteLine(Ficha19Solucao.Exercicio9(numTwo));
+            //WriteLine(Ficha19Solucao.Exercicio10(numTwo));
 
             /*
             // S O L U C A O    F I C H A    2 0 
@@ -185,9 +192,9 @@ namespace Consola
                 }
             }
 
-            Console.WriteLine($"Extensão do ficheiro Ficha20: {Path.GetExtension(secondPath)}");
-            Console.WriteLine($"Caminho para a pasta: {Path.GetFullPath(path)}");
-            Console.WriteLine($"O nome do ficheiro é: {Path.GetFileName(secondPath)}");
+            WriteLine($"Extensão do ficheiro Ficha20: {Path.GetExtension(secondPath)}");
+            WriteLine($"Caminho para a pasta: {Path.GetFullPath(path)}");
+            WriteLine($"O nome do ficheiro é: {Path.GetFileName(secondPath)}");
 
             File.Delete(secondPath); 
             Directory.Delete(path); // E agora é apenas uma lembrança
@@ -196,18 +203,18 @@ namespace Consola
             // S O L U C A O    F I C H A    2 1
             //1
             //int[] newArray = new int[5] { 1, 2, 3, 4, 5 };
-            //Console.WriteLine(newArray.SumArrayElements());
+            //WriteLine(newArray.SumArrayElements());
             //2
             //int number = 2;
-            //Console.WriteLine(number.BetweenTwoNums());
+            //WriteLine(number.BetweenTwoNums());
             //3 e 4
             //var newDate = new DateTime(2020, 04, 22);
-            //Console.WriteLine(newDate.DateMonth());
-            //Console.WriteLine(newDate.DateDayOfWeek());
+            //WriteLine(newDate.DateMonth());
+            //WriteLine(newDate.DateDayOfWeek());
             //5 e 6
             //char randChar = 'b';
-            //Console.WriteLine(randChar.IsVowel());
-            //Console.WriteLine(randChar.IsConsonant());
+            //WriteLine(randChar.IsVowel());
+            //WriteLine(randChar.IsConsonant());
             //7 e 8
             //string vowelsAndConsonants = "abcdefghi";
             //vowelsAndConsonants.Vowels();
@@ -216,21 +223,40 @@ namespace Consola
             //string numsAndSpecialChars = "a1b02d223f55&a!#ª?";
             //numsAndSpecialChars.Nums();
             //numsAndSpecialChars.SpecialChars();
-            // FALTA EXERCICIO 11 e 12 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            
-            Ficha22Solucao.DateAndPrice(3000, Urgency.Red, Dimension.XXL, Transport.Land);
+            // FALTA EXERCICIO 11  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //StreamReader sr = new StreamReader("MyPath");
+            //sr.ContentToList();
 
-            // S O L U C A O    F I C H A    2 4 & & 2 5
-            /*
-            var newVehicle = new vehicle2("fiat", "ab", 2010);
-            Console.WriteLine(newVehicle.Gear);
+            // S O L U C A O    F I C H A    2 2   DATA ENTREGA NAO CONTABILIZA HORARIO TRABALHO (9h 20h)
+            //Ficha22Solucao.DateAndPrice(3000, Urgency.Red, Dimension.XXL, Transport.Land);
 
-            var newProduct = new Catalog2("pão", 1.10, "food");
-            Console.WriteLine(newProduct.Price);
+            // S O L U C A O    F I C H A    2 4 & & 2 5            
+            //var newVehicle = new vehicle2("fiat", "ab", 2010);
+            //WriteLine(newVehicle.Gear);
 
-            var newStud = new Student("Miguel", 24, 15, 6, 2);
-            Console.WriteLine(newStud.HoursOfSleep);
-            */
+            //var newProduct = new Catalog2("pão", 1.10, "food");
+            //WriteLine(newProduct.Price);
+
+            //var newStud = new Student("Miguel", 24, 15, 6, 2);
+            //WriteLine(newStud.HoursOfSleep);
+
+            //var pos = new PositionInMap(0, 0, "nada");
+            //var pos2 = new PositionInMap(0, 1, 20);
+            //var pos3 = new PositionInMap(1, 0, 0);
+            //var pos4 = new PositionInMap(1, 1, false);
+
+            //var tp = new TPCard(Colors.blue, "question A", "answer B");
+            //var tp2 = new TPCard(Colors.pink, "question C", "answer D");
+            //var tp3 = new TPCard(Colors.purple, "question E", "answer F");
+            //var tp4 = new TPCard(Colors.orange, "question G", "answer H");
+
+            //var piano = new PianoKeys(KeyColor.black, 'c', "C#");
+            //var piano2 = new PianoKeys(KeyColor.black, 'f', "F#");
+            //var piano3 = new PianoKeys(KeyColor.white, 'a', "A");
+
+            //var product = new DeliveryManagment(new DateTime(2020, 04, 20), 111111111, new DateTime(2020, 04, 23));
+            //var product2 = new DeliveryManagment(new DateTime(2020, 04, 2), 222222222, new DateTime(2020, 04, 10));
+            //var product3 = new DeliveryManagment(new DateTime(2020, 04, 15), 999999999, new DateTime(2020, 04, 18));
 
 
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24e25.Student
+namespace Recodme.Formacao.Exercicios.Ficha24e25.Student
 {
     /// <summary>
     /// Class student with properties get set and construtor example for a student with name, age, best grade, hours of sleep and amount of coffee

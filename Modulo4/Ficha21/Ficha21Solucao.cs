@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Ficha21
+namespace Recodme.Formacao.Exercicios.Ficha21
 {
     public static class Ficha21Solucao
     {
@@ -88,6 +88,17 @@ namespace Ficha21
             {
                 if (newStr[i]!=' ') Console.WriteLine(newStr[i]);
             }
-        }        
+        }
+        public static List<string> ContentToList(this StreamReader sr)
+        {
+            var list = new List<string>();
+            string s;
+
+            while((s = sr.ReadLine()) != null) 
+            {
+                list.Add(s);
+            }
+            return list;
+        }
     }
 }

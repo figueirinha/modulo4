@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Ficha16
+namespace Recodme.Formacao.Exercicios.Ficha16
 {
     public class Ficha16Solucao
     {

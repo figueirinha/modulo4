@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24e25.Catalog
+namespace Recodme.Formacao.Exercicios.Ficha24e25.Catalog
 {
     /// <summary>
     /// Class catalog for a product with a name price and its type

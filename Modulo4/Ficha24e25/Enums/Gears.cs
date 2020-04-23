@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24e25.EnumGears
+namespace Recodme.Formacao.Exercicios.Ficha24e25.EnumGears
 {
     /// <summary>
     /// enum for all the options of gears in a vehicle.

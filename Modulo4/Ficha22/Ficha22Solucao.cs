@@ -1,7 +1,7 @@
-﻿using Ficha22.Enums;
+﻿using Recodme.Formacao.Exercicios.Ficha22.Enums;
 using System;
 
-namespace Ficha22
+namespace Recodme.Formacao.Exercicios.Ficha22
 {
     public class Ficha22Solucao
     {
@@ -13,11 +13,9 @@ namespace Ficha22
             var finalPrice = dim.PriceBySize() + dim.PriceBySize()*urge.PriceByUrgency();
             var travellingHours = km.HoursBasedOnKm() * trans.HourByTransport();
 
-            int i = 1;
             while (shippingDay.Hour != 17)
             {
-                shippingDay = shippingDay.AddHours(1);
-                i++;
+                shippingDay = shippingDay.AddHours(1);                
             }
             
             var arrivelDate = shippingDay.AddHours(travellingHours);

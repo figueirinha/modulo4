@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Ficha13
+namespace Recodme.Formacao.Exercicios.Ficha13
 {
     public class Ficha13Solucao
     {

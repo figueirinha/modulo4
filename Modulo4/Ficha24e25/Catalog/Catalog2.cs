@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha24e25.Catalog
+namespace Recodme.Formacao.Exercicios.Ficha24e25.Catalog
 {
     /// <summary>
     /// Class catalog with properties get set and constructor example for a product with name price and its type.

@@ -1,9 +1,9 @@
-﻿using Ficha22.Enums;
+﻿using Recodme.Formacao.Exercicios.Ficha22.Enums;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ficha22
+namespace Recodme.Formacao.Exercicios.Ficha22
 {
     public static class ExtensionMethods
     {

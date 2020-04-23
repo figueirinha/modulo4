@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Ficha17
+namespace Recodme.Formacao.Exercicios.Ficha17
 {
     public class Ficha17Solucao
     {

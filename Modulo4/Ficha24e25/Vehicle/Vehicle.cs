@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Ficha24e25.EnumGears;
+using Recodme.Formacao.Exercicios.Ficha24e25.EnumGears;
 
-namespace Ficha24e25.Vehicle
+namespace Recodme.Formacao.Exercicios.Ficha24e25.Vehicle
 {
     /// <summary>
     /// Class vehicle for the brand, model, registration year and the gears options.
