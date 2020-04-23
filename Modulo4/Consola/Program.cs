@@ -9,6 +9,8 @@ using Ficha17;
 using Ficha18;
 using Ficha19;
 using Ficha21;
+using Ficha22;
+using Ficha22.Enums;
 using Ficha24e25.Catalog;
 using Ficha24e25.Student;
 using Ficha24e25.Vehicle;
@@ -215,7 +217,8 @@ namespace Consola
             //numsAndSpecialChars.Nums();
             //numsAndSpecialChars.SpecialChars();
             // FALTA EXERCICIO 11 e 12 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+            
+            Ficha22Solucao.DateAndPrice(3000, Urgency.Red, Dimension.XXL, Transport.Land);
 
             // S O L U C A O    F I C H A    2 4 & & 2 5
             /*

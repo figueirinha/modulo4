@@ -9,20 +9,48 @@ namespace Ficha22
     {
         public static double HoursBasedOnKm(this int km)
         {
-            if (km >= 0) return (km / 10);
-            else return 0;
+            double hours;
+            if (km >= 0) hours = (km / 10);
+            else hours = 0;
+            return hours;
         }
         public static double PriceBySize(this Dimension dim)
         {
-            if (dim == Dimension.XS) return 2.5;
-            else if (dim == Dimension.M) return 5;
-            else if (dim == Dimension.L) return 20;
-            else if (dim == Dimension.XL) return 40;
-            else return 80;
+            double price;
+            if (dim == Dimension.XS) price = 2.5;
+            else if (dim == Dimension.S) price = 5;
+            else if (dim == Dimension.M) price = 10;
+            else if (dim == Dimension.L) price = 20;
+            else if (dim == Dimension.XL) price = 40;
+            else price = 80;
+            return price;
         }
         public static double PriceByUrgency(this Urgency urge)
         {
-            return 0;
+            double pricePercentage;
+            if (urge == Urgency.Green) pricePercentage = 0;
+            else if (urge == Urgency.Yellow) pricePercentage = 0.25;
+            else if (urge == Urgency.Orange) pricePercentage = 0.50;
+            else pricePercentage = 1;
+            return pricePercentage;
         }
+        public static int HoursByUrgency(this Urgency urge)
+        {
+            int hours;
+            if (urge == Urgency.Green) hours = 24;
+            else if (urge == Urgency.Yellow) hours = 12;
+            else if (urge == Urgency.Orange) hours = 6;
+            else hours = 3;
+            return hours;
+        }
+        public static double HourByTransport(this Transport trans)
+        {
+            double hours;
+            if (trans == Transport.Land) hours = 1;
+            else if (trans == Transport.Sea) hours = 0.5;
+            else hours = 0.25;
+            return hours;
+        }
+       
     }
 }
